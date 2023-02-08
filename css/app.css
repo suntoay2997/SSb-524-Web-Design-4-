@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+	
+}
+.announcement{
+	background-color: #3384fc;
+	padding: 10px;
+	text-align: center; 
+}
+.announcement a{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 5%;
+}
+.logo{
+	flex-basis: 15%;
+}
+.logo a{
+	font-size: 30px;
+	color: #2c3e50;
+	text-transform: lowercase;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+.menu{
+	flex-basis: 70%;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{}
+.menu ul li a{
+	color: #2c3e50;
+	font-size: 18px;
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 500;
+	transition-duration: 0.3s;
+}
+.menu ul li a:hover{
+	background-color: #3384fc;
+	color: white;
+	border-radius: 5px;
+	opacity: 0.5;
+} 
+.cart{
+	flex-basis: 15%;
+}
+.cart ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none; 
+}
+.cart ul li{}
+.cart ul li a{
+	color: #2c3e50;
+	font-size: 10px;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px dashed #2c3e50;
+	border-radius: 5px;
+	margin-left: 10px;
+	transition-duration: 0.3s;
+}
+.cart ul li a:hover{
+	background-color: #3384fc;
+	border-color: #3384fc;
+	color: #fff;
+
+}
+.banner{
+	max-width: 100%;
+}
+.about-us{
+	padding: 100px 0;
+}
+.container{
+	max-width: 800px;
+	display: flex;
+	margin: 0 auto;
+}
+h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #2c3e50;
+}
+.about-us p{
+	max-width: 400px;
+}
+.aboutus-content{
+	flex-basis: 70%;
+}
+.aboutus-img{
+	flex-basis: 30%;
+	flex-wrap: wrap;
+}
+p{
+	font-size: 14px;
+	color: #2c3e50;
+	line-height: 1.4;
+	margin-right: 10px;
+}
+
+
+.blogs{
+	padding: 50px 0;
+	display: flex;
+	
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.post{
+	flex-basis: 33.33%;
+	padding: 1px;
+	box-sizing: border-box;
+
+.post img{
+	height: 250px;
+	width: 120px;
+	object-fit: cover;
+}
+
+.post h2{
+	font-size: 18px;
+	margin: 10px 0 5px;
+	color: #2c3e50;
+}
+.post p{
+	font-size: 13px;
+	opacity: 0.8;
+	font-weight: 300;
+}
